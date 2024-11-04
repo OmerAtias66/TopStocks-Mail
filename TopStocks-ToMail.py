@@ -82,7 +82,7 @@ if response.status_code == 200:
     msg['Subject'] = 'Top 5 Stocks Today'
 
     # Email body
-    body = "Hello Omer,\n\nHere is a list of the Top 5 stocks that were most increased in today's day-trade according to Yahoo! Finance.\n\nTopStocks App."
+    body = "Hello,\n\nHere is a list of the Top 5 stocks that were most increased in today's day-trade according to Yahoo! Finance.\n\nTopStocks App."
     msg.attach(MIMEText(body, 'plain'))
 
     # Attach the Excel file
